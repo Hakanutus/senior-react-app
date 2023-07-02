@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+After setting up the IoT device, implementing the web interface that will
+display and allow the user to interact with the sensor data. The app was developed using
+the component-based architecture of React and utilized various open-source packages
+available on npm.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+40
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The web app communicates with the IoT device through a backend server, which
+receives data from the sensors and sends it to the app in response to requests made by
+the user. The communication between the web app and the backend server is typically
+achieved using RESTful APIs or WebSockets.
+To display the sensor data, React components are used to create interactive and dynamic
+user interfaces. Data visualization libraries like Chart.js or D3.js can be leveraged to
+render graphs and charts that provide graphical representations of the sensor readings.
+These libraries enable the web app to present the data in a visually appealing and
+understandable manner.
+The React web app implementation focuses on providing a seamless user experience by
+handling user interactions and updating the UI in response to real-time data changes.
+React's virtual DOM and state management libraries like Redux or React Context can be
+utilized to efficiently update and re-render the UI components as new data arrives.
+Overall, the implementation of the React web app complements the IoT device setup by
+providing users with a user-friendly interface to monitor and interact with the sensor
+data. The app leverages React's component-based architecture and various packages
+from the React ecosystem to create an efficient and responsive user interface.
