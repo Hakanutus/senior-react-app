@@ -3,8 +3,6 @@ display and allow the user to interact with the sensor data. The app was develop
 the component-based architecture of React and utilized various open-source packages
 available on npm.
 
-40
-
 The web app communicates with the IoT device through a backend server, which
 receives data from the sensors and sends it to the app in response to requests made by
 the user. The communication between the web app and the backend server is typically
